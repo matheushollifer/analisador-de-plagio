@@ -1,0 +1,67 @@
+*{ margin: 0px;
+    padding: 0px;
+}
+
+main{
+width: 800px;
+display: flex;
+
+}
+
+.chat{
+background-color: rgba(168, 168, 161, 0.726);
+margin: 40px auto 0 70px;
+float: left;
+padding: 20px 0 300px 20px;
+width: 50%;
+
+}
+
+.chat > p:first-child{
+    color:rgb(148, 144, 144);
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+main > section:nth-child(2){
+padding: 10px;
+border: 2px solid grey;
+margin: 20px;
+border-radius: 20px;
+width: 200px;
+
+}
+.chat > div:nth-child(3){
+    padding: 10px;
+    border: 2px solid grey;
+    background-color: gray;
+    margin: 0 0 80px 500px;
+    border-radius:20px;
+    text-align: right;
+    width: 200px;
+}
+.chat > div:nth-child(4){
+padding: 10px;
+border: 2px solid grey;
+margin: 20px 0 40px;
+width: 200px;
+
+}
+.chat > div:nth-child(5) > span:first-child{
+    background-color: rgb(78, 70, 70);
+    padding: 5px;
+    color: white;
+}
+
+main > section:nth-child(2){
+margin: 40px auto 0 70px;
+float: right;
+width: 50%;
+}
+main > section:nth-child(2) > h4{
+margin: 0 0 20px 0;
+}
+main > section:nth-child(2) >h1{
+margin: 0 0 20px 0;
+}
